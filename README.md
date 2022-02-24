@@ -6,13 +6,11 @@ Helpful links for all things skript:<br>
 &emsp;Skript Documentation: https://en.njol.ch/projects/skript/doc<br>
 <br>
 <b>Effect: Cooldown</b>
-&emsp;```
-if {cooldown.atherwand.%player%} isn't set:
+&emsp;```if {cooldown.atherwand.%player%} isn't set:
                 set {cooldown.atherwand.%player%} to false
             if {cooldown.atherwand.%player%} is true:
                 send "&7This item needs to cooldown for 7 seconds" to player
             if {cooldown.atherwand.%player%} is false:
                 set {cooldown.atherwand.%player%} to true
-                shoot fireball from player at speed 2
-```
+                shoot fireball from player at speed 2```
 
